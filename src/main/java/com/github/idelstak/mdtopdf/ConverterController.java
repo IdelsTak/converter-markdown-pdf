@@ -137,7 +137,7 @@ public class ConverterController {
     }
 
     @FXML
-    private void selectFiles(ActionEvent actionEvent) throws IOException {
+    private void selectFiles(ActionEvent actionEvent) {
         FileChooser fileChooser = new FileChooser();
         fileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("Markdown Files", "*.md"));
         Window owner = ((Node) actionEvent.getSource()).getScene().getWindow();
