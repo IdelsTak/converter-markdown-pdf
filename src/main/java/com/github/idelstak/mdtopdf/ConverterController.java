@@ -118,7 +118,7 @@ public class ConverterController {
                     progressBox.visibleProperty().bind(converterService.runningProperty());
 
                     converterService.setOnFailed(event -> {
-                        System.out.println("service failed with exception = " + event.getSource().getException());
+                        System.out.println("service failed. Error = " + event.getSource().getException());
                     });
                     converterService.setOnSucceeded(event -> runLater(() -> setTitleMessage(0)));
 
