@@ -13,3 +13,12 @@ Click that `Select Files` button and pick the markdown files you want to turn in
 - A clear progress bar shows you how things are going.
 - Informative messages tell you what's happening.
 - At the end, you'll have beautiful PDFs ready to go!
+
+## Try it out
+
+Extract the `zip` file in the releases section. Then run the jar file, named for instance, `md-to-pdf-1.0-SNAPSHOT.jar`:
+
+```sh
+java -jar md-to-pdf-1.0-SNAPSHOT.jar
+```
+
