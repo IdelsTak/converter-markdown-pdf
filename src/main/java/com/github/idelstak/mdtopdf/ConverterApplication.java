@@ -17,7 +17,7 @@ public class ConverterApplication extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(ConverterApplication.class.getResource("converter-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
-        stage.setTitle("Hello!");
+        stage.setTitle("Convert Markdown to PDF");
         stage.setScene(scene);
         stage.show();
     }
